@@ -1,0 +1,189 @@
+1. IAM (Identity and Access Management)
+What is IAM?
+Why do we use IAM?
+What is the difference between IAM User, Group, and Role?
+What is an IAM Policy?
+What are AWS Managed Policies and Customer Managed Policies?
+What is the Principle of Least Privilege?
+What is MFA?
+What are Access Keys?
+Why should we avoid using the Root User?
+How do you provide an EC2 instance access to an S3 bucket?
+2. EC2 (Elastic Compute Cloud)
+What is EC2?
+What is an AMI?
+What is an Instance Type?
+What is a Key Pair?
+What is User Data?
+What are EC2 instance states?
+What is an Elastic IP?
+What is the difference between Stop, Reboot, and Terminate?
+How do you connect to a Linux EC2 instance?
+How do you resize an EC2 instance?
+3. EBS (Elastic Block Store)
+What is EBS?
+What are the types of EBS volumes?
+What is an EBS Snapshot?
+Are snapshots incremental?
+What is the difference between EBS and S3?
+What is the difference between EBS and Instance Store?
+Can you resize an EBS volume?
+What is Delete on Termination?
+What is Multi-Attach?
+How do you restore data from a snapshot?
+4. S3 (Simple Storage Service)
+What is Amazon S3?
+What are S3 Storage Classes?
+What is Versioning?
+What is Lifecycle Policy?
+What is Cross-Region Replication (CRR)?
+What are Bucket Policies?
+What is Object Lock?
+What is Static Website Hosting?
+How do you secure an S3 bucket?
+What is the maximum object size in S3?
+5. VPC (Virtual Private Cloud)
+What is a VPC?
+What is a Subnet?
+What is the difference between Public and Private Subnets?
+What is an Internet Gateway?
+What is a NAT Gateway?
+What is a Route Table?
+What is a CIDR block?
+What is VPC Peering?
+What is a Transit Gateway?
+How does internet access work in a VPC?
+6. Security Groups
+What is a Security Group?
+Is it Stateful or Stateless?
+Can Security Groups deny traffic?
+What are Inbound and Outbound Rules?
+Can one Security Group be attached to multiple EC2 instances?
+7. Network ACL (NACL)
+What is a Network ACL?
+Is it Stateful or Stateless?
+Difference between NACL and Security Group?
+Can NACL allow and deny traffic?
+At which level does a NACL operate?
+8. Elastic Load Balancer (ELB)
+What is a Load Balancer?
+Why do we use ELB?
+What are the types of ELB?
+What is a Target Group?
+What is a Health Check?
+Difference between ALB and NLB?
+What happens if one EC2 instance fails?
+9. Auto Scaling
+What is Auto Scaling?
+Why is Auto Scaling needed?
+What is an Auto Scaling Group?
+What are Scaling Policies?
+Difference between Scale Up and Scale Out?
+What metrics trigger Auto Scaling?
+10. CloudWatch
+What is CloudWatch?
+What are CloudWatch Metrics?
+What are CloudWatch Alarms?
+What are CloudWatch Logs?
+How do you monitor CPU utilization?
+11. CloudTrail
+What is CloudTrail?
+What is the difference between CloudTrail and CloudWatch?
+What events does CloudTrail record?
+Why is CloudTrail important?
+12. RDS (Relational Database Service)
+What is RDS?
+Which database engines does RDS support?
+What is Multi-AZ?
+What is a Read Replica?
+Difference between RDS and EC2-hosted databases?
+What are Automated Backups?
+13. Lambda
+What is AWS Lambda?
+What is Serverless Computing?
+What are Lambda Triggers?
+What is the maximum execution time?
+How does Lambda scale automatically?
+What are Lambda Layers?
+14. CloudFront
+What is CloudFront?
+What is a CDN?
+Why use CloudFront?
+What is an Edge Location?
+Difference between CloudFront and S3?
+15. Route 53
+What is Route 53?
+What is a Hosted Zone?
+What are Routing Policies?
+Difference between Public and Private Hosted Zones?
+What is DNS Failover?
+16. SNS (Simple Notification Service)
+What is SNS?
+What is the Publish-Subscribe model?
+What protocols does SNS support?
+When do you use SNS?
+17. SQS (Simple Queue Service)
+What is SQS?
+Difference between Standard and FIFO queues?
+What is Visibility Timeout?
+Difference between SNS and SQS?
+18. CloudFormation
+What is CloudFormation?
+What is Infrastructure as Code (IaC)?
+What are Stacks?
+What are Templates?
+Difference between CloudFormation and Terraform?
+19. EFS (Elastic File System)
+What is EFS?
+Difference between EFS and EBS?
+Which operating systems support EFS?
+When should you use EFS?
+20. AWS CLI
+What is the AWS CLI?
+How do you configure the AWS CLI?
+Which command lists S3 buckets?
+How do you launch an EC2 instance using the CLI?
+21. CloudShell
+What is AWS CloudShell?
+What are the advantages of CloudShell?
+How is CloudShell different from the AWS CLI on your local machine?
+22. KMS (Key Management Service)
+What is AWS KMS?
+What is Customer Managed Key (CMK)?
+How is KMS used with EBS and S3?
+23. Elastic IP
+What is an Elastic IP?
+Why do we use Elastic IP?
+Is there a charge for Elastic IP?
+24. Elastic Beanstalk
+What is Elastic Beanstalk?
+How is Elastic Beanstalk different from EC2?
+What applications can be deployed?
+25. AWS Organizations
+What is AWS Organizations?
+What is a Management Account?
+What are Organizational Units (OUs)?
+Why use AWS Organizations?
+Top 20 AWS Interview Questions
+What is IAM?
+What is EC2?
+What is S3?
+What is EBS?
+What is a VPC?
+What is a Security Group?
+What is a Network ACL?
+What is an AMI?
+What is an Elastic IP?
+What is an EBS Snapshot?
+What is Auto Scaling?
+What is an Elastic Load Balancer?
+What is CloudWatch?
+What is CloudTrail?
+What is Lambda?
+What is RDS?
+What is Route 53?
+What is CloudFront?
+What is SNS?
+What is SQS?
+
+Preparing these quest
