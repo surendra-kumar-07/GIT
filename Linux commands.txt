@@ -1,0 +1,54 @@
+Linux
+---------
+
+uname 
+
+whoami
+
+cal
+
+cal month
+
+cal year
+
+shutdown
+
+reboot
+
+cal month year
+
+date ,year
+
+uptime
+
+free or free -m
+
+lscpu
+
+echo ""
+
+mkdir directoryname, mkdir direc1 dir2 ...,mkdir -p  maindirectoryname/subdirectory  , mkdir directorynmae{1..10}
+
+cd .., cd directory name 
+
+touch filename , touch filename{1..10} 
+
+vi filename --> esc ,:wq
+
+cat filename
+
+rm filename , rm filename{1..10}
+
+ls
+
+rmdir directoryname, rm -r directoryname 
+
+man command, command -help
+
+mv sourcepath destinationpath
+
+cp sourcepath destination path
+
+cd --> to exit from the all the directories
+
+pwd --> it shows the present working directory
