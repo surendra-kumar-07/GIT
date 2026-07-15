@@ -52,3 +52,8 @@ cp sourcepath destination path
 cd --> to exit from the all the directories
 
 pwd --> it shows the present working directory
+
+file system
+-----------
+
+/bin, /dev,/sbin, /var,/lib, /lib*64,/boot, /home,/tmp,/etc,/usr,/sys,/run
