@@ -97,3 +97,4 @@ chmod means changemode
 file permissions has three categories 1. owner (the one who created the file)----->u
                                       2. group----------------------------------->g
                                       3. others---------------------------------->o
+a
