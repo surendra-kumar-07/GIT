@@ -52,8 +52,48 @@ cp sourcepath destination path
 cd --> to exit from the all the directories
 
 pwd --> it shows the present working directory
-
+cd
 file system
 -----------
 
 /bin, /dev,/sbin, /var,/lib, /lib*64,/boot, /home,/tmp,/etc,/usr,/sys,/run
+
+
+user management
+---------------
+
+useradd username  , cat /etc/passwd, passwd username  ,userdel username ,sudo su or sudo -i -/,cd /home 
+
+group management
+---------------
+
+groupadd groupname 
+
+cat /etc/group
+
+groupdel groupname
+
+usermod -aG groupname username 
+
+userdel -aG username groupname 
+
+
+file permissions(only root user can do ) has number representations also.
+------------------------------------------
+
+chmod---> read(4)---->4 ,write(w)--->2, execute (x)---1   
+
+ex : adding permissions like 1. chmod u+rwx filename                 ex:if you want to give all permissions read, write, execute = 4+2+1=7----> chmod 734
+                      2.chmod g+r filename             ( or )                                                                                                              
+                    3.chmod o+r filename                                                                                    here first(7) represents the user(owner)
+                                                                                                                           here second(3) represents the group
+                                                                                                                            here third(1) represents the others
+ex: removing permsions like use (-) 1.chmod u-rw filename
+                                    2.chmod g-r filename
+                                    3. chmod o-x filename 
+chmod means changemode 
+
+                                                                              (symbolic representations)
+file permissions has three categories 1. owner (the one who created the file)----->u
+                                      2. group----------------------------------->g
+                                      3. others---------------------------------->o
