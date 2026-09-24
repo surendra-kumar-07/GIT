@@ -1,0 +1,69 @@
+git help -a
+
+git init
+
+git status
+
+git add .
+
+
+
+git add filename, git add ., git add filename filename 
+
+git commit -m "", git commit filename -m ""
+
+git log ,git log filename, git log --oneline, git log
+
+git remote add alias url
+
+git  remote or git remote -v
+
+git push alias branchname 
+
+git pull alias branchname
+
+git branch new branchname 
+
+git switch branchname or git checkout branchname
+
+git branch -d branchname or git branch -D branchname
+
+git branch -m branchname 
+
+git checkout . or git checkout filename, git restore filename or git  restore .
+
+git merge branchname 
+
+git rebase branchname
+
+git reset filename or git reset .
+
+git reset --soft HEAD~1
+
+git reset --mixed HEAD~1
+
+git reset --hard HEAD~1
+
+git clone url
+
+git fetch alias
+
+git revert commitid
+
+git stash apply
+
+git stash list
+
+git stash commitid
+
+git cherry-pick commitid
+
+git reflog branchname
+
+git config --global user.name ""
+
+git config --global user.email ""
+
+git config  user.name ""
+
+git config user.email ""

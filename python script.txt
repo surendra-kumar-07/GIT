@@ -1,0 +1,6 @@
+print("Hello from Jenkins!")
+
+name = "Surendra"
+print("Welcome,", name)
+
+print("Jenkins is executing the Python script successfully.")
